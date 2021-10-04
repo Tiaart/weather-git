@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3a4257;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+main {
+    width: 300px;
+    margin: auto;
+    background-color: rgb(196, 214, 219);
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px darkgray;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.cardWeather {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.icon_cloud {
+    width: 55px;
+    height: 55px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+    
+.city {
+    width: 120px;
+    border: rgb(196, 214, 219); 
+    border-radius: 5px;
+    background-color: rgb(196, 214, 219);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.optionWeather, .iconWeather {
+    font-size: 12px;
+}
+
+
+.iconWeather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

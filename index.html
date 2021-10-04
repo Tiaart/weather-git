@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER FORECAST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+
+        <h1> WEATHER FORECAST </h1>
+        <div class="cardWeather">
+            <div class="select_city">
+                <!-- <select class="city">
+                    <option value="524894">Moscow, RU</option>
+                    <option value="554840">Izhevsk, RU</option>
+                    <option value="703448">Kyiv, UA</option>
+                    <option value="5128638">New York, USA</option>
+                    <option value="756135">Warsaw, PL</option>
+                </select> -->
+            
+                <div class="optionWeather">
+                    <p >Feels like: <span class="weatherFL">52.42 </span></p>
+                    <p >Humidity: <span class="weatherH">52.42 </span></p>
+                    <p >Wind: <span class="weatherW">52.42 </span></p>
+                </div>  
+            </div>
+
+            <div class="iconWeather">
+                <p class="weatherTemp"> 52.42 </p>
+                <div class="icon_cloud"> <img class="icon" src="https://cdn2.iconfinder.com/data/icons/weather-color-2/500/weather-06-128.png" alt="icon"> </div>
+                <p class="weatherDescription">Clouds</p>
+            </div>
+        </div>
+        
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
